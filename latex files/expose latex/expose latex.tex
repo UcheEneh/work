@@ -1,0 +1,64 @@
+\documentclass[paper=a4,11pt,parskip=half,toc=listof]{scrartcl}
+
+%\usepackage{amsthm, hyperref}
+\usepackage{etoolbox, hyperref}
+%\usepackage[utf8]{inputenc}
+
+\setlength{\parindent}{0pt}
+
+\def\blank{\medskip\hrule\medskip}
+
+\title{\vspace{-2.0cm} \LARGE {Memory-Augmented Network Application to Non-goal Driven Conversational Agents using Dialogue Dataset with Improved Background Knowledge}}
+
+\author{\normalsize Chukwuemeka Uchenna Eneh}
+
+\date{\vspace{-2ex}}
+
+\begin{document}
+	\maketitle
+	\vspace{-1.0cm}
+	%\textit{Supervisors: Prof. Dr.-Ing. Elmar Noeth, Fabian Galetzka}
+	\textbf{\textit{\normalsize Supervisors: Prof. Dr.-Ing. Elmar Noeth, Fabian Galetzka}}
+	
+	\blank
+	
+	%\underline{}
+	\textbf{Overview}
+	
+	
+	Recent advances in artificial intelligence with the success of neural network models have seen progress in producing meaningful results in conversational settings \cite{vinyals2015neural}. Nevertheless, building intelligent conversational agents remain a problem as conversing with these models tend to produce replies which are not very captivating to the user especially due to the model's tendency to lack long-term memory \cite{vinyals2015neural}, give uninformative replies (e.g. "I don't know") \cite{li2015diversity}, and display an inconsistent personality \cite{serban2016generative, li2016neural}. 
+	
+	The use of conversational agents for health-related purposes has found its application in mental healthcare to be mainly as a tool for effectively delivering therapy for conditions such as depression and dementia \cite{laranjo2018conversational, wolters2016designing, fitzpatrick2017delivering}. Meeting the demand for the treatment of depression is a major challenge for mental health services with 6-9\% of people suffering from depression in the US as well as in Europe each year \cite{wittchen2011size}. The psychological treatments of holding a social conversation with depressed patients to improve their mood \cite{williams2008exercise} and reminiscence therapy \cite{woods2005reminiscence, ashida2000effect}, where people are encouraged to converse about their past, have shown effective results in reducing depression.
+	
+	This thesis focuses on developing an intelligent conversational agent which could potentially hold human-like conversations on topics of social interactions such as movies, sports and family and could be used in the long run to supplement existing mental health treatments such as reminiscence therapy for depression and dementia. Please note that this thesis is not a medical research on treatment of depression and clinical trials or evaluation would not be carried out specifically on depressed patients. Due to the unavailability of a dialogue corpus of conversations with depressed people and the ethical hurdles involved in creating one, the project would not be run on such a dataset. 
+	
+	\textbf{\normalsize {Dataset}}
+	
+	Dialogue corpora from Twitter, Ubuntu, Reddit and OpenSubtitles that have been traditionally used in training conversational models \cite{serban2015survey} contain a sequence of utterance and responses from different speakers without any explicit background knowledge linked to the speakers or topic of discussion. This causes the model to produce simplistic response because it treats a conversation as a sequence-to-sequence generation task \cite{li2015diversity}, which is different to the way humans converse by relying on some background information, as opposed to simply relying on the previous sequence of utterances \cite{dunbar1997human, moghe2018towards}. Current trends in chitchat modeling have shifted towards making more engaging conversational agents by training them with datasets that integrate structured background knowledge \cite{zhang2018personalizing, moghe2018towards}. This gives the model a configurable personality termed as profile which are stored in a memory-augmented neural network \cite{miller2016key, kumar2016ask} and used to produce more personal, consistent and engaging responses, giving the model a human-like conversational attribute.
+	
+	This thesis has the option of using any of the following two knowledge based datasets:
+	
+	(i) The first, the PERSONA-CHAT dataset \cite{zhang2018personalizing}, is a crowd-sourced dataset used in the \href{http://www.parl.ai/static/docs/tasks.html}{ConvAI2 Challenge} \cite{dinan2019second}. This dataset is collected using Amazon Mechanical Turk where two Turkers are paired to converse on a particular topic and each one is provided a random profile from a pool of profiles on which they have to structure their dialogue around.
+	
+	(ii) The second dataset (currently being created by Fabian Galetzka) is inspired by the PERSONA-CHAT dataset. Dialogues would also be obtained using Amazon's MTurk, but the conversation focuses on popular movies, where each speaker is not just given a persona (profile) but additionally, a set of facts from the movie plot and trivias.
+	
+	\textbf{\normalsize {Task}}
+	
+	The project will be developed in Python script using the open-source software library Tensorflow for building the neural network	models, and cloud computing will be done on Microsoft Azure. The thesis would focus on trying out new architectures on these knowledge-based datasets such as:
+	
+	1. Combining \emph{ranking} and \emph{generative} models such as Key-Value Memory Network \cite{miller2016key, sukhbaatar2015end} and Seq2Seq Network \cite{sutskever2014sequence} respectively. Variations to the combination of these models would be performed including adding self-attention \cite{vaswani2017attention, shao2017generating} to the model's decoder in order to prevent the model from repeating previous replies in a conversation.
+	
+	2. Performing Transfer Learning on memory-network models:
+	inspired by the TransferTransfo model \cite{wolf2019transfertransfo, radford2018improving}, transfer learning would be implemented on the Ranking Profile Memory Network and the Key-Value Memory Network \cite{miller2016key}.
+	
+	\textbf{\normalsize {Evaluation}}
+	
+	Comparison on the results between the two datasets would be done to see if adding the new labels to the knowledge base would improve the model's ability to output better responses.
+	Evaluation would be done on the three automated metrics provided for the PERSON-CHAT dataset \cite{zhang2018personalizing}. Human evaluation would also be considered. The best model in comparison to the \href{(http://convai.io)}{current state-of-the art} will be selected and evaluated as the final goal for the project.	
+	
+	This thesis would be a joint work between Friedrich-Alexander University, Erlangen-Nürnberg and Volkswagen AG, and is structured to run from April, 2019 to September 2019. It will comprise an extended research on related work and existing models on non-goal driven conversational agents. Every implemented or used code will be described in detail and, in case of the developed algorithms, all documentation will be provided. 
+	
+	\bibliographystyle{plain}
+	\bibliography{References}
+	
+\end{document}

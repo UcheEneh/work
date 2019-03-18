@@ -1,0 +1,39 @@
+Thesis Expose
+
+TO DO:
+
+- Persona dataset - refer to paper (describe what the dataset is)
+- Conv.ai - describe challenge, put link
+				- check best result and how they achieved them (papers)
+
+				
+- Look at baseline models from different papers for conversational models
+	- check dataset and content 
+	
+- Look into seq2seq and Key-Value Profile Memory (Good enough for Prof. for now)
+
+
+Check TransferTransfo paper
+1. Maybe: Combine Transfer learning method used here with KV Profile Memory network
+		- Not sure but I think in the paper they only used a generative model, not a ranking model
+		- Maybe pretraining on a dataset would improve the way KV attention model gets its output
+		- Check if memory augmentation was incorporated in the paper if not, this would be good start
+
+2. Find better way to use Key-Value Memory:
+		- Think in paper, they have used sentence embedding, so try using word embedding or combining this with HRED method or something
+		
+3. Try to make the KV model a Generative model or try to improve it:
+		-e.g. Make a model that uses KV model to first outputs a value and use this output as an input to a generative model...
+		
+
+Others:
+- Memory Augmented Neural Networks
+
+Challenges:
+- How to get the additional info from the newly created database into the network
+
+
+If using Fabian's db:
+- Check if better/more labeling improves result
+
+- How does KV Prof. Memory perform if in addition to the input sentences, there are additionally attitudes linked to the input

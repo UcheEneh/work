@@ -1,0 +1,58 @@
+\begin{thebibliography}{1}
+
+\bibitem{li2015diversity}
+Jiwei Li, Michel Galley, Chris Brockett, Jianfeng Gao, and Bill Dolan.
+\newblock A diversity-promoting objective function for neural conversation
+  models.
+\newblock {\em arXiv preprint arXiv:1510.03055}, 2015.
+
+\bibitem{miller2016key}
+Alexander Miller, Adam Fisch, Jesse Dodge, Amir-Hossein Karimi, Antoine Bordes,
+  and Jason Weston.
+\newblock Key-value memory networks for directly reading documents.
+\newblock {\em arXiv preprint arXiv:1606.03126}, 2016.
+
+\bibitem{moghe2018towards}
+Nikita Moghe, Siddhartha Arora, Suman Banerjee, and Mitesh~M Khapra.
+\newblock Towards exploiting background knowledge for building conversation
+  systems.
+\newblock {\em arXiv preprint arXiv:1809.08205}, 2018.
+
+\bibitem{serban2016generative}
+Iulian~Vlad Serban, Ryan Lowe, Laurent Charlin, and Joelle Pineau.
+\newblock Generative deep neural networks for dialogue: A short review.
+\newblock {\em arXiv preprint arXiv:1611.06216}, 2016.
+
+\bibitem{serban2015survey}
+Iulian~Vlad Serban, Ryan Lowe, Peter Henderson, Laurent Charlin, and Joelle
+  Pineau.
+\newblock A survey of available corpora for building data-driven dialogue
+  systems.
+\newblock {\em arXiv preprint arXiv:1512.05742}, 2015.
+
+\bibitem{shao2017generating}
+Louis Shao, Stephan Gouws, Denny Britz, Anna Goldie, Brian Strope, and Ray
+  Kurzweil.
+\newblock Generating high-quality and informative conversation responses with
+  sequence-to-sequence models.
+\newblock {\em arXiv preprint arXiv:1701.03185}, 2017.
+
+\bibitem{vaswani2017attention}
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
+  Aidan~N Gomez, {\L}ukasz Kaiser, and Illia Polosukhin.
+\newblock Attention is all you need.
+\newblock In {\em Advances in Neural Information Processing Systems}, pages
+  5998--6008, 2017.
+
+\bibitem{vinyals2015neural}
+Oriol Vinyals and Quoc Le.
+\newblock A neural conversational model.
+\newblock {\em arXiv preprint arXiv:1506.05869}, 2015.
+
+\bibitem{zhang2018personalizing}
+Saizheng Zhang, Emily Dinan, Jack Urbanek, Arthur Szlam, Douwe Kiela, and Jason
+  Weston.
+\newblock Personalizing dialogue agents: I have a dog, do you have pets too?
+\newblock {\em arXiv preprint arXiv:1801.07243}, 2018.
+
+\end{thebibliography}

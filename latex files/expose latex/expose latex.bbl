@@ -1,0 +1,153 @@
+\begin{thebibliography}{10}
+
+\bibitem{ashida2000effect}
+Sato Ashida.
+\newblock The effect of reminiscence music therapy sessions on changes in
+  depressive symptoms in elderly persons with dementia.
+\newblock {\em Journal of music therapy}, 37(3):170--182, 2000.
+
+\bibitem{dinan2019second}
+Emily Dinan, Varvara Logacheva, Valentin Malykh, Alexander Miller, Kurt
+  Shuster, Jack Urbanek, Douwe Kiela, Arthur Szlam, Iulian Serban, Ryan Lowe,
+  et~al.
+\newblock The second conversational intelligence challenge (convai2).
+\newblock {\em arXiv preprint arXiv:1902.00098}, 2019.
+
+\bibitem{dunbar1997human}
+Robin~IM Dunbar, Anna Marriott, and Neil~DC Duncan.
+\newblock Human conversational behavior.
+\newblock {\em Human nature}, 8(3):231--246, 1997.
+
+\bibitem{fitzpatrick2017delivering}
+Kathleen~Kara Fitzpatrick, Alison Darcy, and Molly Vierhile.
+\newblock Delivering cognitive behavior therapy to young adults with symptoms
+  of depression and anxiety using a fully automated conversational agent
+  (woebot): a randomized controlled trial.
+\newblock {\em JMIR mental health}, 4(2), 2017.
+
+\bibitem{kumar2016ask}
+Ankit Kumar, Ozan Irsoy, Peter Ondruska, Mohit Iyyer, James Bradbury, Ishaan
+  Gulrajani, Victor Zhong, Romain Paulus, and Richard Socher.
+\newblock Ask me anything: Dynamic memory networks for natural language
+  processing.
+\newblock In {\em International Conference on Machine Learning}, pages
+  1378--1387, 2016.
+
+\bibitem{laranjo2018conversational}
+Liliana Laranjo, Adam~G Dunn, Huong~Ly Tong, Ahmet~Baki Kocaballi, Jessica
+  Chen, Rabia Bashir, Didi Surian, Blanca Gallego, Farah Magrabi, Annie~YS Lau,
+  et~al.
+\newblock Conversational agents in healthcare: a systematic review.
+\newblock {\em Journal of the American Medical Informatics Association},
+  25(9):1248--1258, 2018.
+
+\bibitem{li2015diversity}
+Jiwei Li, Michel Galley, Chris Brockett, Jianfeng Gao, and Bill Dolan.
+\newblock A diversity-promoting objective function for neural conversation
+  models.
+\newblock {\em arXiv preprint arXiv:1510.03055}, 2015.
+
+\bibitem{li2016neural}
+Jiwei Li and Dan Jurafsky.
+\newblock Neural net models for open-domain discourse coherence.
+\newblock {\em arXiv preprint arXiv:1606.01545}, 2016.
+
+\bibitem{miller2016key}
+Alexander Miller, Adam Fisch, Jesse Dodge, Amir-Hossein Karimi, Antoine Bordes,
+  and Jason Weston.
+\newblock Key-value memory networks for directly reading documents.
+\newblock {\em arXiv preprint arXiv:1606.03126}, 2016.
+
+\bibitem{moghe2018towards}
+Nikita Moghe, Siddhartha Arora, Suman Banerjee, and Mitesh~M Khapra.
+\newblock Towards exploiting background knowledge for building conversation
+  systems.
+\newblock {\em arXiv preprint arXiv:1809.08205}, 2018.
+
+\bibitem{radford2018improving}
+Alec Radford, Karthik Narasimhan, Tim Salimans, and Ilya Sutskever.
+\newblock Improving language understanding by generative pre-training.
+\newblock {\em URL https://s3-us-west-2. amazonaws.
+  com/openai-assets/research-covers/languageunsupervised/language understanding
+  paper. pdf}, 2018.
+
+\bibitem{serban2016generative}
+Iulian~Vlad Serban, Ryan Lowe, Laurent Charlin, and Joelle Pineau.
+\newblock Generative deep neural networks for dialogue: A short review.
+\newblock {\em arXiv preprint arXiv:1611.06216}, 2016.
+
+\bibitem{serban2015survey}
+Iulian~Vlad Serban, Ryan Lowe, Peter Henderson, Laurent Charlin, and Joelle
+  Pineau.
+\newblock A survey of available corpora for building data-driven dialogue
+  systems.
+\newblock {\em arXiv preprint arXiv:1512.05742}, 2015.
+
+\bibitem{shao2017generating}
+Louis Shao, Stephan Gouws, Denny Britz, Anna Goldie, Brian Strope, and Ray
+  Kurzweil.
+\newblock Generating high-quality and informative conversation responses with
+  sequence-to-sequence models.
+\newblock {\em arXiv preprint arXiv:1701.03185}, 2017.
+
+\bibitem{sukhbaatar2015end}
+Sainbayar Sukhbaatar, Jason Weston, Rob Fergus, et~al.
+\newblock End-to-end memory networks.
+\newblock In {\em Advances in neural information processing systems}, pages
+  2440--2448, 2015.
+
+\bibitem{sutskever2014sequence}
+Ilya Sutskever, Oriol Vinyals, and Quoc~V Le.
+\newblock Sequence to sequence learning with neural networks.
+\newblock In {\em Advances in neural information processing systems}, pages
+  3104--3112, 2014.
+
+\bibitem{vaswani2017attention}
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
+  Aidan~N Gomez, {\L}ukasz Kaiser, and Illia Polosukhin.
+\newblock Attention is all you need.
+\newblock In {\em Advances in Neural Information Processing Systems}, pages
+  5998--6008, 2017.
+
+\bibitem{vinyals2015neural}
+Oriol Vinyals and Quoc Le.
+\newblock A neural conversational model.
+\newblock {\em arXiv preprint arXiv:1506.05869}, 2015.
+
+\bibitem{williams2008exercise}
+CL~Williams and RM~Tappen.
+\newblock Exercise training for depressed older adults with alzheimer's
+  disease.
+\newblock {\em Aging and Mental Health}, 12(1):72--80, 2008.
+
+\bibitem{wittchen2011size}
+Hans-Ulrich Wittchen, Frank Jacobi, J{\"u}rgen Rehm, Anders Gustavsson, Mikael
+  Svensson, Bengt J{\"o}nsson, Jes Olesen, Christer Allgulander, Jordi Alonso,
+  CLFPJ Faravelli, et~al.
+\newblock The size and burden of mental disorders and other disorders of the
+  brain in europe 2010.
+\newblock {\em European neuropsychopharmacology}, 21(9):655--679, 2011.
+
+\bibitem{wolf2019transfertransfo}
+Thomas Wolf, Victor Sanh, Julien Chaumond, and Clement Delangue.
+\newblock Transfertransfo: A transfer learning approach for neural network
+  based conversational agents.
+\newblock {\em arXiv preprint arXiv:1901.08149}, 2019.
+
+\bibitem{wolters2016designing}
+Maria~Klara Wolters, Fiona Kelly, and Jonathan Kilgour.
+\newblock Designing a spoken dialogue interface to an intelligent cognitive
+  assistant for people with dementia.
+\newblock {\em Health informatics journal}, 22(4):854--866, 2016.
+
+\bibitem{woods2005reminiscence}
+B~Woods, A~Spector, C~Jones, M~Orrell, and S~Davies.
+\newblock Reminiscence therapy for dementia., 2005.
+
+\bibitem{zhang2018personalizing}
+Saizheng Zhang, Emily Dinan, Jack Urbanek, Arthur Szlam, Douwe Kiela, and Jason
+  Weston.
+\newblock Personalizing dialogue agents: I have a dog, do you have pets too?
+\newblock {\em arXiv preprint arXiv:1801.07243}, 2018.
+
+\end{thebibliography}
